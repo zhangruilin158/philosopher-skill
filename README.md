@@ -127,6 +127,7 @@ references/
   question-bank.md                提问句库，按十一个动作分类，可直接填空
   concepts.md                     概念卡 + 概念速用表（何时用 / 何时误用 / 问法）
   dialogue-playbook.md            五夜推进链条、八种攻防、示例对话、引文库（带出处）
+  examples/full-session.md        一场走完四幕的完整示范 + 逐轮拆解
   scenarios/                      五个场景：怕改变 / 被评价 / 原生家庭 / 职场 / 教育
   safety.md                       安全边界与危机处置（A 级 / B 级）
   quality-checks.md               八项判定尺 + 14 条回归用例 + 阻断项
