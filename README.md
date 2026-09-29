@@ -25,7 +25,9 @@
 
 ## 使用方式
 
-把整个目录放进你的 skills 目录：
+### 方式一：直接下载
+
+把整个目录放进你的 skills 目录，目录名保持 `adlerian-philosopher`：
 
 ```bash
 # WorkBuddy / CodeBuddy 用户级
@@ -35,7 +37,17 @@
 <project>/.workbuddy-ai/skills/adlerian-philosopher/
 ```
 
-然后直接说：
+### 方式二：从 GitHub 克隆
+
+```bash
+git clone https://github.com/zhangruilin158/zheren-skill.git
+mv zheren-skill ~/.workbuddy-ai/skills/adlerian-philosopher
+```
+
+> 仓库名是 `zheren-skill`（GitHub 不支持中文仓库名，`哲人skill` 会被剥离成 `-skill`），
+> 但 **skill 目录名必须是 `adlerian-philosopher`**，否则无法被正确识别。
+
+### 然后直接说
 
 ```
 用哲人的方式问我：我最近总是拖延，明知道该做的事就是不做
