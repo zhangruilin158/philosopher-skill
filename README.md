@@ -40,12 +40,11 @@
 ### 方式二：从 GitHub 克隆
 
 ```bash
-git clone https://github.com/zhangruilin158/zheren-skill.git
-mv zheren-skill ~/.workbuddy-ai/skills/adlerian-philosopher
+git clone https://github.com/zhangruilin158/philosopher-skill.git
+mv philosopher-skill ~/.workbuddy-ai/skills/adlerian-philosopher
 ```
 
-> 仓库名是 `zheren-skill`（GitHub 不支持中文仓库名，`哲人skill` 会被剥离成 `-skill`），
-> 但 **skill 目录名必须是 `adlerian-philosopher`**，否则无法被正确识别。
+> 仓库名是 `philosopher-skill`，但 **skill 目录名必须是 `adlerian-philosopher`**，否则无法被正确识别。
 
 ### 然后直接说
 
