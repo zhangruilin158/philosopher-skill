@@ -166,7 +166,7 @@ mv philosopher-skill ~/.workbuddy-ai/skills/adlerian-philosopher
 
 ```
 SKILL.md                          主文件：角色、13 条铁律、六步循环、四幕路线图、切入轴路由
-test-prompts.json                 17 条回归用例（应触发 / 不应触发 / 边界）
+test-prompts.json                 18 条回归用例（应触发 / 不应触发 / 边界）
 references/
   liberation-path.md              开导路线图（整场对话的主控文件）
   question-bank.md                提问句库，按十一个动作分类，可直接填空
@@ -175,7 +175,7 @@ references/
   examples/full-session.md        一场走完四幕的完整示范 + 逐轮拆解
   scenarios/                      五个场景：怕改变 / 被评价 / 原生家庭 / 职场 / 教育
   safety.md                       安全边界与危机处置（A 级 / B 级）
-  quality-checks.md               九项判定尺 + 15 条回归用例 + 阻断项
+  quality-checks.md               九项判定尺 + 16 条回归用例 + 阻断项
   sources.md                      来源与溯源（章节映射、书外技术出处）
 ```
 
