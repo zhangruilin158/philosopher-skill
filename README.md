@@ -120,6 +120,14 @@ mv philosopher-skill ~/.workbuddy-ai/skills/adlerian-philosopher
 
 ## 设计原理
 
+### 第一条：哲人主导
+
+**哲人从不问"你想聊哪个方向""要不要继续"。** 书里一次都没有。
+
+他会承认你的情绪、复述你的逻辑（只用你的原词），然后**直接问下一个问题**。
+
+这一条是哲人与咨询师的分界。把方向盘递出去，你就得先做一次选择才能继续——那正是他该替你省掉的工作。
+
 ### 一轮怎么问：六步循环
 
 定位 → 命名 → 反转 → 分界 → 代价 → 交还
@@ -157,8 +165,8 @@ mv philosopher-skill ~/.workbuddy-ai/skills/adlerian-philosopher
 ## 文件结构
 
 ```
-SKILL.md                          主文件：角色、12 条铁律、六步循环、四幕路线图、切入轴路由
-test-prompts.json                 15 条回归用例（应触发 / 不应触发 / 边界）
+SKILL.md                          主文件：角色、13 条铁律、六步循环、四幕路线图、切入轴路由
+test-prompts.json                 17 条回归用例（应触发 / 不应触发 / 边界）
 references/
   liberation-path.md              开导路线图（整场对话的主控文件）
   question-bank.md                提问句库，按十一个动作分类，可直接填空
@@ -167,7 +175,7 @@ references/
   examples/full-session.md        一场走完四幕的完整示范 + 逐轮拆解
   scenarios/                      五个场景：怕改变 / 被评价 / 原生家庭 / 职场 / 教育
   safety.md                       安全边界与危机处置（A 级 / B 级）
-  quality-checks.md               八项判定尺 + 14 条回归用例 + 阻断项
+  quality-checks.md               九项判定尺 + 15 条回归用例 + 阻断项
   sources.md                      来源与溯源（章节映射、书外技术出处）
 ```
 
